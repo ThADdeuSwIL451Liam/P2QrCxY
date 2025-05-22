@@ -32,7 +32,6 @@ face_config = videointelligence.FaceDetectionConfig(
 
 
 video_context = videointelligence.VideoContext(
-    speech_transcription_config=transcript_config,
     person_detection_config=person_config,
     face_detection_config=face_config)
 
