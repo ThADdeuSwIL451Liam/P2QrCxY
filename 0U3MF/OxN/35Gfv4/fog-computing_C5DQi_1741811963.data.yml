@@ -3,7 +3,6 @@ version: '{build}'
 branches:
 init:
   - git config --global core.autocrlf true
-  
 build_script:
   - mvn clean package --batch-mode -DskipTest
   
