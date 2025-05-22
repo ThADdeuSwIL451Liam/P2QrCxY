@@ -1,6 +1,5 @@
 """All Video Intelligence API features run on a video stored on GCS."""
 from google.cloud import videointelligence
-
 import time
 output_uri = "gs://YOUR-BUCKET/output - {}.json".format(time.time())
 
