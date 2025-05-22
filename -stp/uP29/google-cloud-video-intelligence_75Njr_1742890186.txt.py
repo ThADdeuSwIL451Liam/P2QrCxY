@@ -2,7 +2,6 @@
 from google.cloud import videointelligence
 
 import time
-
 output_uri = "gs://YOUR-BUCKET/output - {}.json".format(time.time())
 
 video_client = videointelligence.VideoIntelligenceServiceClient.from_service_account_file(
