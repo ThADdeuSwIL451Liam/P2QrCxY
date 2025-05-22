@@ -25,7 +25,6 @@ transcript_config = videointelligence.SpeechTranscriptionConfig(
 )
 
 person_config = videointelligence.PersonDetectionConfig(
-    include_bounding_boxes=True,
     include_attributes=False,
     include_pose_landmarks=True,
 )
