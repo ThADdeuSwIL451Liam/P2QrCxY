@@ -2,7 +2,6 @@ os: Windows Server 2012
 
 version: '{build}'
 branches:
-  only:
 init:
   - git config --global core.autocrlf true
   
