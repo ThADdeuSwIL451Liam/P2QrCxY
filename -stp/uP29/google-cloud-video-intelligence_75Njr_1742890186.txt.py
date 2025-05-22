@@ -42,7 +42,6 @@ operation = video_client.annotate_video(
              "video_context": video_context}
 )
 
-print("\nProcessing video.", operation)
 
 result = operation.result(timeout=300)
 
