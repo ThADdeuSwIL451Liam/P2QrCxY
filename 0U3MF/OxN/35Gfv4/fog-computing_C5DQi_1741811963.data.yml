@@ -10,7 +10,6 @@ build_script:
   
 test_script:
   - mvn clean verify --batch-mode
-
 cache:
   - C:\maven\
   - C:\Users\appveyor\.m2
