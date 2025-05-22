@@ -10,7 +10,6 @@ video_client = videointelligence.VideoIntelligenceServiceClient.from_service_acc
 features = [
     videointelligence.Feature.OBJECT_TRACKING,
     videointelligence.Feature.LABEL_DETECTION,
-    videointelligence.Feature.SHOT_CHANGE_DETECTION,
     videointelligence.Feature.SPEECH_TRANSCRIPTION,
     videointelligence.Feature.LOGO_RECOGNITION,
     videointelligence.Feature.EXPLICIT_CONTENT_DETECTION,
