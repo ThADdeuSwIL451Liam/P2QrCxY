@@ -4,7 +4,6 @@ import time
 output_uri = "gs://YOUR-BUCKET/output - {}.json".format(time.time())
 
 video_client = videointelligence.VideoIntelligenceServiceClient.from_service_account_file(
-    "YOUR SERVICE ACCOUNT FILE.json")
 
 features = [
     videointelligence.Feature.OBJECT_TRACKING,
