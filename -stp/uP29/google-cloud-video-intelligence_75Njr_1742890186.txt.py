@@ -14,7 +14,6 @@ features = [
     videointelligence.Feature.EXPLICIT_CONTENT_DETECTION,
     videointelligence.Feature.TEXT_DETECTION,
     videointelligence.Feature.FACE_DETECTION,
-    videointelligence.Feature.PERSON_DETECTION
 ]
 
 transcript_config = videointelligence.SpeechTranscriptionConfig(
