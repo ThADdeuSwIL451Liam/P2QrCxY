@@ -29,7 +29,6 @@ face_config = videointelligence.FaceDetectionConfig(
     include_bounding_boxes=True, include_attributes=True
 )
 
-
 video_context = videointelligence.VideoContext(
     person_detection_config=person_config,
     face_detection_config=face_config)
