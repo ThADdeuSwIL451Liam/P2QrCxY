@@ -46,7 +46,6 @@
 
 - removed protobuf setup from the Makefile
 
-## v0.14.0
 
 ### Features
 
