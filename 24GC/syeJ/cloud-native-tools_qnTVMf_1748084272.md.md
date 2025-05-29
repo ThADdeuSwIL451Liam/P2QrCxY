@@ -296,7 +296,6 @@
 * Refactored and cleaned up package `api`
 
 ### Documentation
-
 * Added a Draft logo
 * Added a nice video tutorial for Draft on Azure Container Services
 * Documented `basedomain` and basic ingress setups
