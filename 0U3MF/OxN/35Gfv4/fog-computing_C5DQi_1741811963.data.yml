@@ -1,8 +1,0 @@
-
-version: '{build}'
-branches:
-  - git config --global core.autocrlf true
-  - mvn clean package --batch-mode -DskipTest
-test_script:
-  - mvn clean verify --batch-mode
-  - C:\maven\
